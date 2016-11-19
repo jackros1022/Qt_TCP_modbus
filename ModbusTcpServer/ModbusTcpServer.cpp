@@ -1,3 +1,6 @@
+/*
+* 头文件配置失败
+*/
 #include "ModbusTcpServer.h"
 #include "ui_ModbusTcpServer.h"
 #include <QModbusDevice>
@@ -6,6 +9,7 @@
 #include <QDebug>
 #include <QUrl>
 #include <QModbusTcpServer>
+
 ModbusTcpServer::ModbusTcpServer(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::ModbusTcpServer)
